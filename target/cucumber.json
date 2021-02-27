@@ -1,0 +1,491 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User already on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8441000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on login page",
+            "match": {
+              "location": "com.library.step_definitions.LibraryStepDefinitions.userAlreadyOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-27T19:08:39.009Z",
+        "line": 13,
+        "name": "verify  Students   login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;verify--students---login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9386000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user login as a \"student14\" and \"password14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student14\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password14\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.library.step_definitions.LibraryStepDefinitions.the_on(LibraryStepDefinitions.java:42)\r\n\tat ✽.the \"Test Student 14\" on  \"books\"(file:///C:/Users/Engin/github/bibMyLibraryCTProject/src/test/resources/features/library.feature:9)\r\n",
+              "duration": 20000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the \"Test Student 14\" on  \"books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Student 14\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"books\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_on(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@st"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User already on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3183000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on login page",
+            "match": {
+              "location": "com.library.step_definitions.LibraryStepDefinitions.userAlreadyOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-27T19:08:57.076Z",
+        "line": 14,
+        "name": "verify  Students   login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;verify--students---login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#inputEmail\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-6O3GAFCQ\u0027, ip: \u0027192.168.1.92\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\Engin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 74f2a7971df5ada2cc30cdf78fd09081\n*** Element info: {Using\u003did, value\u003dinputEmail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\r\n\tat com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(LibraryStepDefinitions.java:29)\r\n\tat ✽.the user login as a \"student15\" and \"password15\"(file:///C:/Users/Engin/github/bibMyLibraryCTProject/src/test/resources/features/library.feature:8)\r\n",
+              "duration": 10074000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the user login as a \"student15\" and \"password15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student15\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password15\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"Test Student 15\" on  \"books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Student 15\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"books\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_on(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@st"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User already on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3157000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on login page",
+            "match": {
+              "location": "com.library.step_definitions.LibraryStepDefinitions.userAlreadyOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-27T19:09:10.340Z",
+        "line": 15,
+        "name": "verify  Students   login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;verify--students---login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#inputEmail\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-6O3GAFCQ\u0027, ip: \u0027192.168.1.92\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\Engin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 74f2a7971df5ada2cc30cdf78fd09081\n*** Element info: {Using\u003did, value\u003dinputEmail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\r\n\tat com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(LibraryStepDefinitions.java:29)\r\n\tat ✽.the user login as a \"student16\" and \"password16\"(file:///C:/Users/Engin/github/bibMyLibraryCTProject/src/test/resources/features/library.feature:8)\r\n",
+              "duration": 10067000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the user login as a \"student16\" and \"password16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student16\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password16\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the \"Test Student 16\" on  \"books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Student 16\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"books\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_on(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@st"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User already on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3170000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on login page",
+            "match": {
+              "location": "com.library.step_definitions.LibraryStepDefinitions.userAlreadyOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-27T19:09:23.573Z",
+        "line": 24,
+        "name": "verify  librarians  login",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;verify--librarians--login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#inputEmail\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-6O3GAFCQ\u0027, ip: \u0027192.168.1.92\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\Engin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 74f2a7971df5ada2cc30cdf78fd09081\n*** Element info: {Using\u003did, value\u003dinputEmail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\r\n\tat com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(LibraryStepDefinitions.java:29)\r\n\tat ✽.the user login as a \"librarian21\" and \"password21\"(file:///C:/Users/Engin/github/bibMyLibraryCTProject/src/test/resources/features/library.feature:20)\r\n",
+              "duration": 10058000000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "the user login as a \"librarian21\" and \"password21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian21\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password21\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_user_login_as_a_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the \"Test Librarian 21\" on  \"dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Librarian 21\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"dashboard\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.library.step_definitions.LibraryStepDefinitions.the_on(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@librarian"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User already on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3183000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on login page",
+            "match": {
+              "location": "com.library.step_definitions.LibraryStepDefinitions.userAlreadyOnLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-27T19:09:36.810Z",
+        "line": 27,
+        "name": "As a student, I should be able to search books with different categories.(US-7)",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;as-a-student--i-should-be-able-to-search-books-with-different-categories.(us-7)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#inputEmail\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-6O3GAFCQ\u0027, ip: \u0027192.168.1.92\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\Engin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 74f2a7971df5ada2cc30cdf78fd09081\n*** Element info: {Using\u003did, value\u003dinputEmail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\r\n\tat com.library.pages.LoginPage.loginToLibraryAsStudent(LoginPage.java:34)\r\n\tat com.library.step_definitions.LibraryStepDefinitions.studentCanChooseFromTheListAllTheCategoryDropdown(LibraryStepDefinitions.java:58)\r\n\tat ✽.Student can choose from the list all the category dropdown(file:///C:/Users/Engin/github/bibMyLibraryCTProject/src/test/resources/features/library.feature:29)\r\n",
+              "duration": 10050000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "Student can choose from the list all the category dropdown",
+            "match": {
+              "location": "com.library.step_definitions.LibraryStepDefinitions.studentCanChooseFromTheListAllTheCategoryDropdown(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ALL"
+                ]
+              },
+              {
+                "cells": [
+                  "Action and Adventure"
+                ]
+              },
+              {
+                "cells": [
+                  "Anthology"
+                ]
+              },
+              {
+                "cells": [
+                  "Classic"
+                ]
+              },
+              {
+                "cells": [
+                  "Comic and Graphic Novel"
+                ]
+              },
+              {
+                "cells": [
+                  "Crime and Detective"
+                ]
+              },
+              {
+                "cells": [
+                  "Drama"
+                ]
+              },
+              {
+                "cells": [
+                  "Fable"
+                ]
+              },
+              {
+                "cells": [
+                  "Fairy Tale"
+                ]
+              },
+              {
+                "cells": [
+                  "Fan-Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Fantasy"
+                ]
+              },
+              {
+                "cells": [
+                  "Historical Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Horror"
+                ]
+              },
+              {
+                "cells": [
+                  "Science Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Biography/Autobiography"
+                ]
+              },
+              {
+                "cells": [
+                  "Humor"
+                ]
+              },
+              {
+                "cells": [
+                  "Romance"
+                ]
+              },
+              {
+                "cells": [
+                  "Short Story"
+                ]
+              },
+              {
+                "cells": [
+                  "Essay"
+                ]
+              },
+              {
+                "cells": [
+                  "Memoir"
+                ]
+              },
+              {
+                "cells": [
+                  "Poetry"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to login to the library app.",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/library.feature",
+    "tags": []
+  }
+]
