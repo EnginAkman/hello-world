@@ -35,5 +35,12 @@ public WebElement studentID;
         inputPassword.sendKeys(ConfigurationReader.getProperty("password"));
         loginButton.click();
     }
+
+    public void loginAsLibrarian(){
+        inputEmail.sendKeys(ConfigurationReader.getProperty("librarian21"));
+        inputPassword.sendKeys(ConfigurationReader.getProperty("password21"));
+        loginButton.click();
+    }
+
 }
 
